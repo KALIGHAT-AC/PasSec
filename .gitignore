@@ -1,0 +1,30 @@
+## OS / Editor
+.DS_Store
+Thumbs.db
+
+## Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/.vite/
+
+## Backend
+backend/venv/
+backend/__pycache__/
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.ruff_cache/
+backend/**/__pycache__/
+
+## Env files
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# Massive Data Files
+backend/data/common_passwords.txt
+rockyou.txt
+
