@@ -14,7 +14,7 @@ load_dotenv()
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     path = os.getenv("WORDLIST_PATH", "./data/common_passwords.txt")
-    app.state.dictionary_engine = DictionaryAttackEngine(path)
+    app.state.dictionary_engine = DictionaryAttackEngine("./data/common_passwords.txt")
     n = len(app.state.dictionary_engine.passwords)
     print(f"[startup] Loaded {n:,} passwords into dictionary engine.")
     yield

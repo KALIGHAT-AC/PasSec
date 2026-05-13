@@ -25,6 +25,5 @@ backend/.env.*
 !backend/.env.example
 
 # Massive Data Files
-backend/data/common_passwords.txt
 rockyou.txt
 
