@@ -1,7 +1,7 @@
 import { useState, useCallback, useRef } from "react";
 import axios from "axios";
 
-const API_URL = "/api/analyze-password";
+const API_URL = "https://passec-backend.onrender.com/api/analyze-password";
 
 export function usePasswordAnalysis() {
   const [status, setStatus] = useState("idle");
