@@ -9,6 +9,7 @@ Examples:
 import argparse
 import os
 import sys
+import ssl
 import urllib.request
 from typing import Iterable
 
@@ -44,6 +45,7 @@ def _write_top_n(passwords: Iterable[str], output: str, n: int) -> int:
 
 
 def download(output_path: str, top_n: int = 100_000) -> None:
+    ssl._create_default_https_context = ssl._create_unverified_context
     output = os.path.abspath(output_path)
     os.makedirs(os.path.dirname(output), exist_ok=True)
 
