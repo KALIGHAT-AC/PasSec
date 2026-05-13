@@ -137,9 +137,9 @@ npm install
 npm run dev
 ```
 
-Frontend runs at: http://localhost:5173  
-Backend API at:   http://localhost:8000  
-API Docs at:      http://localhost:8000/docs
+Frontend runs at: https://passec-2dv.pages.dev/  
+Backend API at:   https://passec-backend.onrender.com 
+API Docs at:      https://passec-backend.onrender.com/docs
 
 ---
 
