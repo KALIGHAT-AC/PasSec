@@ -1,4 +1,4 @@
-# 🔐 Password Security Analyzer - PasSec
+# 🔐 Password Security Analyzer - PassSec
 
 A full-stack cybersecurity tool that simulates real-world brute-force and dictionary attacks on passwords using cryptographic entropy math and GPU-speed benchmarks.
 
